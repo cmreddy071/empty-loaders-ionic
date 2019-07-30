@@ -8,7 +8,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'device',
+        path: 'Actions',
         children: [
           {
             path: '',
@@ -18,7 +18,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'alarms',
+        path: 'Text-Only',
         children: [
           {
             path: '',
@@ -28,7 +28,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'predictions',
+        path: 'Placeholders',
         children: [
           {
             path: '',
@@ -38,7 +38,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'other',
+        path: 'Sub-Content',
         children: [
           {
             path: '',
